@@ -65,6 +65,7 @@ p {
 
 .container {
   padding: 20px;
+  
 }
 
 .card {
@@ -92,7 +93,7 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 992px) {
+@media (max-width: 650px) {
   .container {
     display: flex;
     align-items: center;
